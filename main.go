@@ -1,11 +1,11 @@
 package main
 
 import (
-	"github.com/lazybark/pcloud-sync-server/sync"
+	"github.com/lazybark/pcloud-sync-server/cloud/client"
 )
 
 func main() {
-	sync := sync.NewSyncClient()
+	sync := client.NewSyncClient()
 
 	sync.Start()
 

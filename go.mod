@@ -8,6 +8,7 @@ require github.com/lazybark/pcloud-sync-server v0.0.0-20220415201425-0f70c5e92db
 
 require (
 	github.com/fsnotify/fsnotify v1.5.2 // indirect
+	github.com/gofrs/uuid v4.2.0+incompatible // indirect
 	github.com/hashicorp/hcl v1.0.0 // indirect
 	github.com/jinzhu/inflection v1.0.0 // indirect
 	github.com/jinzhu/now v1.1.5 // indirect
